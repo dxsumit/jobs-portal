@@ -34,6 +34,12 @@ app.use("/api/jobs", jobs);
 })();
 
 
+app.get('/', (req, res) => {
+
+    res.status(200).json({status: "success", msg: "This is baseURL"}); 
+})
+
+
 // error handling
 app.use((err, req, res, next) => {
     console.error(err.stack)
