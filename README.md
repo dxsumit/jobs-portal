@@ -1,4 +1,5 @@
 ## FullStack project to create a job-portal using MERN stack.
+<a href="https://remarkable-alfajores-5f40fd.netlify.app/"> https://remarkable-alfajores-5f40fd.netlify.app/ </a> <br><br>
 To run the project locally 
 <ul>
   <li> Clone the repository in local computer. </li>
