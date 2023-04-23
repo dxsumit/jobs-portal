@@ -3,14 +3,12 @@ import axios from "axios";
 import {useNavigate} from 'react-router-dom'
 
 const JobSection = () => {
-
-    const baseURL = "http://localhost:4000";
+    // const baseURL = "http://localhost:4000";
+    const baseURL = "https://jobs-portal.ced19i028sumit.repl.co";
     const navigate = useNavigate();
     const [jobs, setJobs] = useState([]);
 
     let tempJob = [];
-    let temp;
-
     useEffect( () => {
 
         const getjobFields = async () => {
@@ -26,7 +24,6 @@ const JobSection = () => {
                         about: `${obj.aboutRole.slice(0,120)}...`
                     }
                 })
-
                 // console.log(tempJob);
                 setJobs(tempJob);
             }
@@ -45,14 +42,10 @@ const JobSection = () => {
             <h1 className="text-xl md:text-3xl text-[#242331] font-bold my-4"> Current Job Open positions </h1>
 
             <div className="flex flex-wrap justify-center">
-
                 {
                     jobs.map(obj => (
                         <div className="group relative flex items-start justify-between rounded-xl border-[1px] border-[#CACACA] mx-1 mt-3 w-5/6 px-2 py-4 sm:p-2 md:px-6 md:py-8 sm:w-[40%] transition-colors duration-300 hover:bg-[#0C5BC6]" key={obj.id}>
                             <div className="text-[#242331] group-hover:text-white">
-
-                                {/* <img className="px-2" src={obj.icon} width="30%" height="30%" alt="icon" /> */}
-
                                 <h3 className="text-base md:text-lg font-bold">
                                     {obj.title}
                                 </h3>
@@ -69,14 +62,9 @@ const JobSection = () => {
                         </div>
                     ))
                 }
-
             </div>
         </div>
     )
 }
 
-
 export default JobSection;
-
-
-

@@ -1,6 +1,5 @@
 
 // scroll to top of the page...
-
 import { useEffect } from "react";
 import {useLocation} from "react-router-dom"
 
@@ -20,5 +19,3 @@ const GoToTop = () => {
 }
 
 export default GoToTop;
-
-

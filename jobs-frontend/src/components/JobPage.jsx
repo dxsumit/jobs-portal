@@ -7,8 +7,8 @@ import Footer from "./footer";
 import GoToTop from "./GoToTop";
 
 const JobPage = () => {
-
-    const baseURL = "http://localhost:4000";
+    // const baseURL = "http://localhost:4000";
+    const baseURL = "https://jobs-portal.ced19i028sumit.repl.co";
 
     const [title, setTitle] = useState("");
     const [jobLocation, setJobLocation] = useState("");
@@ -26,9 +26,7 @@ const JobPage = () => {
     const {id} = location.state;
 
     useEffect( () => {
-
         const getjobFields = async () => {
-
             const response = await axios.get(`${baseURL}/api/jobs/find/${id}`);
             if(response.data.status === "successful"){
                 setTitle(response.data.msg.title);
@@ -57,8 +55,6 @@ const JobPage = () => {
         getjobFields();
 
     }, [])
-
-
 
     return (
         <div>
@@ -132,6 +128,3 @@ const JobPage = () => {
 export default JobPage;
 
 
-
-
-    
