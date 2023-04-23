@@ -20,7 +20,7 @@ const Navbar = () => {
                     <Link to="#" className="mr-6">Contact </Link>
                 </div>
 
-                <button class="inline-flex items-center text-white bg-[#0C5BC6] border-0 rounded-full text-xs py-3 px-7 mt-4 ml-3 md:mt-0">Sign In</button>
+                <button className="inline-flex items-center text-white bg-[#0C5BC6] border-0 rounded-full text-xs py-3 px-7 mt-4 ml-3 md:mt-0">Sign In</button>
 
             </div>
           

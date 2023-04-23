@@ -5,6 +5,7 @@ import ImageSection from "./ImageSection";
 import Values from "./Values";
 import JobSection from "./jobSection";
 import Footer from "./footer";
+import GoToTop from "./GoToTop";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Values />
             <JobSection />
             <Footer />
+            <GoToTop />
         </>
     )
 } 

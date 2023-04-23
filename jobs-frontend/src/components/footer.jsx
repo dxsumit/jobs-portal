@@ -16,7 +16,7 @@ const Footer = () => {
                 </p>
                 
                 <div className="flex mt-6">
-                    <svg class="h-6 w-6 text-[#5236FF]"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
+                    <svg className="h-6 w-6 text-[#5236FF]"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="2" />  <polyline points="3 7 12 13 21 7" /></svg>
 
                     <div className="text-sm ml-2">
                         <p> hello@xerocodee.com </p>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex mt-4">
-                    <svg class="h-6 w-6 text-[#5236FF]"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />  <path d="M15 7a2 2 0 0 1 2 2" />  <path d="M15 3a6 6 0 0 1 6 6" /></svg>
+                    <svg className="h-6 w-6 text-[#5236FF]"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />  <path d="M15 7a2 2 0 0 1 2 2" />  <path d="M15 3a6 6 0 0 1 6 6" /></svg>
 
                     <div className="text-sm ml-2">
                         <p> +987 6541 3654 </p>
@@ -81,9 +81,9 @@ const Footer = () => {
 
                             <div className="flex w-full justify-between"> 
 
-                                <button class="inline-flex items-center bg-[#242331] rounded-full text-white text-xs font-semibold py-2 px-6 md:py-3 md:px-9 mt-4 md:mt-8 "> Google </button>
+                                <button className="inline-flex items-center bg-[#242331] rounded-full text-white text-xs font-semibold py-2 px-6 md:py-3 md:px-9 mt-4 md:mt-8 "> Google </button>
 
-                                <button class="inline-flex items-center bg-none border-[1.5px] rounded-full text-[#242331] text-xs font-semibold py-2 px-6 mr-2 md:py-3 md:px-9 mt-4 md:mt-8 "> Github </button>
+                                <button className="inline-flex items-center bg-none border-[1.5px] rounded-full text-[#242331] text-xs font-semibold py-2 px-6 mr-2 md:py-3 md:px-9 mt-4 md:mt-8 "> Github </button>
                             </div>
                         </div>
             </div>
